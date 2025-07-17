@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: MyJenkins
+  description: 'GBT Jenkins'
+  # Example for optional annotations
+  annotations:
+    jenkins.io/job-full-name: "CCoE/aws-cdk-pipeline"
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: GBT CCoE
+  lifecycle: experimental
